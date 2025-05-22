@@ -1,5 +1,5 @@
-monthlyIncome = int(input("Enter your monthly income: "))
-totalExpenses = int(input("Enter your total monthly expenses: "))
+monthlyIncome = float(input("Enter your monthly income: "))
+totalExpenses = float(input("Enter your total monthly expenses: "))
 monthlySavings = monthlyIncome - totalExpenses
 print(f"Your monthly savings are ${monthlySavings}")
 
